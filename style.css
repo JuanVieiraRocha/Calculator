@@ -1,0 +1,43 @@
+body{
+    background-image: url("bg.JPG");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    margin: 0;
+}
+.container{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.calculator{
+    padding: 10px;
+}
+input{
+    padding: 20px;
+}
+.calculator button{
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+.imagens{
+text-align: center;
+padding-top: 100px;
+
+
+}
+#github{
+    height: 90px;
+
+}
+#insta{
+    height: 100px;
+}

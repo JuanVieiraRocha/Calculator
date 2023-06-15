@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>Simple calculator</h1>
@@ -21,22 +21,29 @@
          <button class="button" onclick="appendtolabel('7')">7</button>
          <button class="button" onclick="appendtolabel('8')">8</button>
          <button class="button" onclick="appendtolabel('9')">9</button>
-         <button class="button" onclick="appendtolabel('0')">0</button>
          <button class="button" onclick="appendtolabel('+')">+</button>
+         <button class="button" onclick="appendtolabel('0')">0</button>
          <button class="button" onclick="appendtolabel('-')">-</button>
          <button class="button" onclick="appendtolabel('/')">/</button>
-         <button class="button" onclick="appendtolabel('*')">*</button>
-         <button class="button" onclick="appendtolabel('C')">Clear</button>
+         <button class="button" onclick="appendtolabel('*')">x</button>
+         <button class="button" onclick="appendtolabel('C')">C</button>
          <button class="button" onclick="appendtolabel('=')">=</button>
         </div>
         
     </div>
     <footer>
-        <h3>contatos</h3>
-        <div class="imagens">
-            <a><img src="image/instagram.png"></a>
-            <a><img src="image/github.png"></a>
+        <div  class="imagens">
+            <h3>contatos</h3>
+
+            <a href="https://www.instagram.com/juanzito.kkj/?igshid=ZDdkNTZiNTM%3D">
+                <img id="insta" src="image/instagram.png">
+            </a>
+            <a href="https://github.com/JuanVieiraRocha">
+                <img id="github" src="image/github.png">
+            </a>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
