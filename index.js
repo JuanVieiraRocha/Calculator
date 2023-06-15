@@ -1,3 +1,11 @@
+function appendtolabel(value){
+    document.getElementById("label").value += value;
+}
+function clearDisplay(){
+    document.getElementById("label").value= "";
+}
 function calculate(){
-    var num1 == appendtolabel()
+    var label = document.getElementById("label");
+    var result = eval(label.value);
+    label.value = result;
 }

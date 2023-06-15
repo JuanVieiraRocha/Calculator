@@ -10,7 +10,7 @@
 <body>
     <h1>Simple calculator</h1>
     <div class="container">
-        <input type="text" placeholder="1+1">
+        <input id="label" type="text" readonly>
         <div class="calculator">
          <button class="button" onclick="appendtolabel('1')">1</button>
          <button class="button" onclick="appendtolabel('2')">2</button>
@@ -26,8 +26,8 @@
          <button class="button" onclick="appendtolabel('-')">-</button>
          <button class="button" onclick="appendtolabel('/')">/</button>
          <button class="button" onclick="appendtolabel('*')">x</button>
-         <button class="button" onclick="appendtolabel('C')">C</button>
-         <button class="button" onclick="appendtolabel('=')">=</button>
+         <button class="button" onclick="clearDisplay()">C</button>
+         <button class="button" onclick="calculate()">=</button>
         </div>
         
     </div>

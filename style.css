@@ -1,12 +1,13 @@
 body{
-    background-image: url("bg.JPG");
+    background-image: url("image/bg.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 h1{
     text-align: center;
     padding: 10px;
-    color: #000;
+    color: #ffffff;
     margin: 0;
 }
 .container{
@@ -26,18 +27,22 @@ input{
     background: black;
     color: white;
     padding: 20px;
-    margin: auto;
+    margin: 1px auto;
 }
 .imagens{
 text-align: center;
-padding-top: 100px;
-
-
+background: #fff;
+margin: auto;
+width: 200px;
+border-radius: 10px;
 }
 #github{
-    height: 90px;
+    height: 70px;
 
 }
 #insta{
-    height: 100px;
+    height: 70px;
+}
+footer{
+    padding-top: 110px;
 }
